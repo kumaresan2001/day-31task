@@ -19,7 +19,7 @@ const DeleteTeach = ({
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`https://62e3c20ab54fc209b8903197.mockapi.io/teachers/${id}`, {
+    fetch(`https://63f4ee4d3f99f5855dba9b9b.mockapi.io/teachers/${id}`, {
       method: "DELETE",
     }).then(() => navigate("/delete-teacher"));
   }, []);
