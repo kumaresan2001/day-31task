@@ -107,7 +107,7 @@ const CreateStud = ({
                     };
 
                     fetch(
-                      "https://62e3c20ab54fc209b8903197.mockapi.io/students",
+                      "https://63eb872df1a969340db9f818.mockapi.io/students",
                       {
                         method: "POST",
                         body: JSON.stringify(newStudent),
@@ -133,60 +133,3 @@ const CreateStud = ({
 };
 
 export default CreateStud;
-
-[
-  {
-    name: "Student1",
-    email: "student1@gmail.com",
-    phone: "11111111",
-    teacher: "Teacher1",
-    batch: "1",
-    marks: "80",
-    id: "1",
-  },
-  {
-    name: "student2",
-    email: "student2@gmail.com",
-    phone: "22222222",
-    teacher: "Teacher2",
-    batch: "2",
-    marks: "60",
-    id: "2",
-  },
-  {
-    name: "student3",
-    email: "student2@gmail.com",
-    phone: "33333333",
-    teacher: "Teacher3",
-    batch: "3",
-    marks: "50",
-    id: "3",
-  },
-  {
-    name: "student4",
-    email: "student4@gmail.com",
-    phone: "444444",
-    teacher: "Teacher4",
-    batch: "9",
-    marks: "55",
-    id: "4",
-  },
-  {
-    name: "",
-    email: "",
-    phone: "",
-    teacher: "",
-    batch: "",
-    marks: "",
-    id: "5",
-  },
-  {
-    name: "",
-    email: "",
-    phone: "",
-    teacher: "",
-    batch: "",
-    marks: "",
-    id: "6",
-  },
-];

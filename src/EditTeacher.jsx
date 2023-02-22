@@ -23,7 +23,7 @@ export default function EditTeacher({
   const [teacher, setTeacher] = useState("");
 
   useEffect(() => {
-    fetch(`https://62e3c20ab54fc209b8903197.mockapi.io/teachers/${id}`, {
+    fetch(`https://63f4ee4d3f99f5855dba9b9b.mockapi.io/teachers/${id}`, {
       method: "GET",
     })
       .then((data) => data.json())
@@ -122,7 +122,7 @@ function EditTeacherForm({ teacher }) {
           };
 
           fetch(
-            `https://62e3c20ab54fc209b8903197.mockapi.io/teachers/${teacher.id}`,
+            `https://63f4ee4d3f99f5855dba9b9b.mockapi.io/teachers/${teacher.id}`,
             {
               method: "PUT",
               body: JSON.stringify(updatedTeacher),

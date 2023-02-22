@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
-
 import Sidebar from "./Sidebar";
 import Login from "./Login";
-import Logout from "./Logout";
 
 const Dashboard = ({
   handleOpen,
@@ -21,6 +19,7 @@ const Dashboard = ({
   const handleSidebar = () => {
     setSidebarToggle((prevSidebarToggle) => !prevSidebarToggle);
   };
+
   return (
     <div>
       <div id="wrapper">
@@ -44,25 +43,25 @@ const Dashboard = ({
           <div id="content">
             {/* Topbar */}
             <Navbar
-            // sidebarToggle={sidebarToggle}
-            // setSidebarToggle={setSidebarToggle}
-            // handleSidebar={handleSidebar}
-            // open={open}
-            // setOpen={setOpen}
-            // handleOpen={handleOpen}
-            // open1={open1}
-            // setOpen1={setOpen1}
-            // handleOpen1={handleOpen1}
-            // open2={open2}
-            // setOpen2={setOpen2}
-            // handleOpen2={handleOpen2}
+              sidebarToggle={sidebarToggle}
+              setSidebarToggle={setSidebarToggle}
+              handleSidebar={handleSidebar}
+              open={open}
+              setOpen={setOpen}
+              handleOpen={handleOpen}
+              open1={open1}
+              setOpen1={setOpen1}
+              handleOpen1={handleOpen1}
+              open2={open2}
+              setOpen2={setOpen2}
+              handleOpen2={handleOpen2}
             />
 
             {/* Begin Page Content */}
+
             <div className="container-fluid">
               <Login />
             </div>
-            <Logout />
           </div>
         </div>
       </div>

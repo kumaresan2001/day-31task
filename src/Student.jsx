@@ -17,7 +17,7 @@ const Student = ({
   const [students, setStudents] = useState([]);
 
   function getStudents() {
-    fetch("https://62e3c20ab54fc209b8903197.mockapi.io/students", {
+    fetch("https://63eb872df1a969340db9f818.mockapi.io/students", {
       method: "GET",
     })
       .then((data) => data.json())

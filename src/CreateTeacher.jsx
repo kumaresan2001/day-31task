@@ -91,7 +91,7 @@ const CreateTeacher = ({
                     };
 
                     fetch(
-                      "https://62e3c20ab54fc209b8903197.mockapi.io/teachers",
+                      "https://63f4ee4d3f99f5855dba9b9b.mockapi.io/teachers",
                       {
                         method: "POST",
                         body: JSON.stringify(newTeacher),

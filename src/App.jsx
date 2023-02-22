@@ -1,10 +1,6 @@
 import "./App.css";
 import Student from "./Student";
-import Footer from "./Footer";
-import Sidebar from "./Sidebar";
-import Navbar from "./Navbar";
 import { Routes, Route } from "react-router-dom";
-import Logout from "./Logout";
 import CreateStud from "./CreateStud";
 import EditStud from "./EditStud";
 import EditList from "./EditList";
@@ -17,7 +13,6 @@ import EditTeacher from "./EditTeacher";
 import DeleteListTeach from "./DeleteListTeach";
 import DeleteTeach from "./DeleteTeach";
 import Dashboard from "./Dashboard";
-// import { Footer } from "./Footer";
 import React, { useState } from "react";
 
 function App() {

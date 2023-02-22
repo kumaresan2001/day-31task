@@ -49,9 +49,7 @@ const Sidebar = ({
         <div className="sidebar-brand-icon rotate-n-15">
           <i className="fas fa-laugh-wink"></i>
         </div>
-        <div className="sidebar-brand-text mx-3">
-          SB Admin <sup>2</sup>
-        </div>
+        <div className="sidebar-brand-text mx-3">school Administration</div>
       </a>
 
       {/* <!-- Divider --> */}
@@ -196,7 +194,7 @@ const Sidebar = ({
       <div className="sidebar-card d-none d-lg-flex">
         <img
           className="sidebar-card-illustration mb-2"
-          src="https://img.lovepik.com/element/45000/6636.png_300.png"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWa4IUfo-Rf32plBVjE1_7UXUWK77IWNUEog&usqp=CAU"
           alt="...."
           style={styles}
         />
